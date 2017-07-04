@@ -1,0 +1,1 @@
+web: build/install/dsweb-grails/bin/dsweb-grails

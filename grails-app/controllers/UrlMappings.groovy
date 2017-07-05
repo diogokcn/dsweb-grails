@@ -1,5 +1,3 @@
-package dsweb.grails
-
 class UrlMappings {
 
     static mappings = {

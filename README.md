@@ -4,6 +4,13 @@ A documentação que será gerada em PDF é o arquivo README.md que está na pas
 Este arquivo serve apenas de referência para sabermos quais tarefas precisam ser feitas.  
 Para gerar o PDF da documentação pode-se usar [este site](http://www.markdowntopdf.com/).  
 
+Adicionei dois arquivos na pasta raiz do projeto:
+    xbuild.sh
+    xrun.sh
+
+O primeiro compila o projeto e o segundo executa. Para utilizá-los basta digitar .\nome.sh, por exemplo: 
+    .\xbuild.sh
+
 ## TO DO  
 > Marque a [ ] com um x quando for feita a tarefa!  
 > Adicione mais itens se necessário.  

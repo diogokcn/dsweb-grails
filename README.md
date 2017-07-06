@@ -19,7 +19,7 @@ Para utilizá-los basta digitar .\nome.sh, por exemplo:
 - [x] Postar no moodle o nosso grupo com o link para este repositório
 - [x] Definir as entidades  
 - [x] Fazer diagrama de classes
-- [ ] Configurar projeto para o heroku
+- [x] Configurar projeto para o heroku
 - [ ] Modelar o banco de dados  
 - [ ] Definir as funções  
 - [ ] Criar as classes a partir das entidades e funções  

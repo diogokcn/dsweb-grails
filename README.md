@@ -8,7 +8,8 @@ Adicionei dois arquivos na pasta raiz do projeto:
     xbuild.sh
     xrun.sh
 
-O primeiro compila o projeto e o segundo executa. Para utilizá-los basta digitar .\nome.sh, por exemplo: 
+O primeiro compila o projeto e o segundo executa.  
+Para utilizá-los basta digitar .\nome.sh, por exemplo:  
     .\xbuild.sh
 
 ## TO DO  

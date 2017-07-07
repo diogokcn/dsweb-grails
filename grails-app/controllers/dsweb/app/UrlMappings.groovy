@@ -1,3 +1,5 @@
+package dsweb.app
+
 class UrlMappings {
 
     static mappings = {

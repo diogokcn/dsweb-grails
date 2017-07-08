@@ -14,10 +14,15 @@ E por último gero as views e controllers automaticmante com: grails generate-al
 Por hora esses comandos estão sendo suficientes.
 
 Classes que foram minimamente implementadas:  
-    * Ator  
-    * Autor  
-    * Diretor  
-    * Usuário  
+        
+        * Ator  
+        * Autor  
+        * Diretor  
+        * Filme  
+        * HQ  
+        * Livro  
+        * Serie  
+        * Usuário  
 
 ## TO DO  
 > Marque a [ ] com um x quando for feita a tarefa!  

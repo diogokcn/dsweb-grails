@@ -32,4 +32,6 @@ class Filme {
         orcamento min: 0
         bilheteria min: 0
     }
+
+    static hasMany = [usuarioFilme: UsuarioFilme]
 }

@@ -22,4 +22,6 @@ class HQ {
         numeroVolumes nullable: true, min: 0
         statusProducao blank: true, nullable: true, size: 1..255
     }
+
+    static hasMany = [usuarioHQ: UsuarioHQ]
 }

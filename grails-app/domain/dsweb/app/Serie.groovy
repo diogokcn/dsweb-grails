@@ -34,4 +34,6 @@ class Serie {
         statusProducao blank: true, nullable: true, size: 1..255
         duracaoMediaEpisodio min: 0
     }
+
+    static hasMany = [usuarioSerie: UsuarioSerie]
 }

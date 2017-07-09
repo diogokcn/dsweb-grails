@@ -15,4 +15,9 @@ class Usuario {
         password blank: false, size: 4..255, password: true
         email blank: false, size: 1..255, email: true
     }
+
+    static hasMany = [usuarioLivro: UsuarioLivro]
+    static hasMany = [usuarioHQ: UsuarioHQ]
+    static hasMany = [usuarioFilme: UsuarioFilme]
+    static hasMany = [usuarioSerie: UsuarioSerie]
 }

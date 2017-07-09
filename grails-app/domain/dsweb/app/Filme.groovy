@@ -20,15 +20,16 @@ class Filme {
 
     static constraints = {
         nome blank: false, size: 1..255 
-        nota blank:true, range: 0..10
+        nota min: 0.0f, max: 10.0f
 
-        sinopse blank:true, size: 0..255
-        genero blank:true, size: 0..255
-        linguaOriginal blank:true, size: 0..255
+        dataLancamento nullable: true
+        sinopse blank: true, nullable: true
+        genero blank: true, nullable: true, size: 0..255
+        linguaOriginal blank: true, nullable: true, size: 0..255
         classificacaoIndicativa nullable: true, min: 0
 
-        duracao nullable: true, min: 0
-        orcamento nullable: true, min: 0
-        bilheteria nullable: true, min: 0
+        duracao min: 0
+        orcamento min: 0
+        bilheteria min: 0
     }
 }

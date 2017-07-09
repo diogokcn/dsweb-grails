@@ -21,17 +21,17 @@ class Serie {
 
     static constraints = {
         nome blank: false, size: 1..255 
-        nota blank:true, range: 0..10
+        nota min: 0.0f, max: 10.0f
 
-        sinopse blank:true, size: 0..255
-        genero blank:true, size: 0..255
-        linguaOriginal blank:true, size: 0..255
-        classificacaoIndicativa nullable: true, min: 0
+        sinopse blank:true, nullable: true, size: 1..255
+        genero blank:true, nullable: true, size: 1..255
+        linguaOriginal blank:true, nullable: true, size: 1..255
+        classificacaoIndicativa  min: 0
 
-        numeroTemporadas nullable: true, min: 0
-        numeroEpisodios nullable: true, min: 0
-        produtora blank: true, size: 0..255
-        statusProducao blank: true, size: 0..255
-        duracaoMediaEpisodio nullable: true, min: 0
+        numeroTemporadas min: 0
+        numeroEpisodios min: 0
+        produtora blank: true, nullable: true, size: 1..255
+        statusProducao blank: true, nullable: true, size: 1..255
+        duracaoMediaEpisodio min: 0
     }
 }

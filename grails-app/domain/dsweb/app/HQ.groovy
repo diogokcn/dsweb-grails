@@ -23,6 +23,5 @@ class HQ {
         statusProducao blank: true, nullable: true, size: 1..255
     }
 
-    static hasMany = [autorHQ: AutorHQ]
-    static hasMany = [usuarioHQ: UsuarioHQ]
+    static hasMany = [autorHQ: AutorHQ, usuarioHQ: UsuarioHQ]
 }

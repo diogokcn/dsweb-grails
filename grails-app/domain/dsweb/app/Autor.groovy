@@ -13,6 +13,5 @@ class Autor {
         biografia blank: true, nullable: true, size: 1..1023
     }
 
-    static hasMany = [autorLivro: AutorLivro]
-    static hasMany = [autorHQ: AutorHQ]
+    static hasMany = [autorLivro: AutorLivro, autorHQ: AutorHQ]
 }

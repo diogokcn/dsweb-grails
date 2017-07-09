@@ -15,8 +15,7 @@ class Ator {
         biografia blank: true, nullable: true, size: 1..1023
     }
 
-    static hasMany = [atorFilme: AtorFilme]
-    static hasMany = [atorSerie: AtorSerie]
+    static hasMany = [atorFilme: AtorFilme, atorSerie: AtorSerie]
 }
 
 

@@ -19,7 +19,7 @@ class Filme {
     Boolean aprovado
 
     static constraints = {
-        nome blank: false, size: 1..255 
+        nome blank: false, size: 1..255, unique: true
         nota min: 0.0f, max: 10.0f
 
         dataLancamento nullable: true
@@ -33,7 +33,5 @@ class Filme {
         bilheteria min: 0
     }
 
-    static hasMany = [usuarioFilme: UsuarioFilme]
-    static hasMany = [usuarioFilme: AtorFilme]
-    static hasMany = [usuarioFilme: DiretorFilme]
+    static hasMany = [usuarioFilme: UsuarioFilme, atorFilme: AtorFilme, diretorFilme: DiretorFilme]
 }

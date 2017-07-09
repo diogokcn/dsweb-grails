@@ -11,6 +11,5 @@ class Diretor {
         biografia blank: true, nullable: true, size: 1..1023
     }
     
-    static hasMany = [diretorFilme: DiretorFilme]
-    static hasMany = [diretorSerie: DiretorSerie]
+    static hasMany = [diretorFilme: DiretorFilme, diretorSerie: DiretorSerie]
 }

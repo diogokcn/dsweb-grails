@@ -24,5 +24,6 @@ class Livro {
         anoPublicacao nullable: true
     }
 
+    static hasMany = [autorLivro: AutorLivro]
     static hasMany = [usuarioLivro: UsuarioLivro]
 }

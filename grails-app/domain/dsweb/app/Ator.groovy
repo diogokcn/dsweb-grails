@@ -14,4 +14,9 @@ class Ator {
         localNascimento blank: true, nullable: true, size: 1..255
         biografia blank: true, nullable: true, size: 1..1023
     }
+
+    static hasMany = [atorFilme: AtorFilme]
+    static hasMany = [atorSerie: AtorSerie]
 }
+
+

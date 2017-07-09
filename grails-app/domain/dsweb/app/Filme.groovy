@@ -34,4 +34,6 @@ class Filme {
     }
 
     static hasMany = [usuarioFilme: UsuarioFilme]
+    static hasMany = [usuarioFilme: AtorFilme]
+    static hasMany = [usuarioFilme: DiretorFilme]
 }

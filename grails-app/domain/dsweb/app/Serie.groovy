@@ -35,5 +35,7 @@ class Serie {
         duracaoMediaEpisodio min: 0
     }
 
+    static hasMany = [atorSerie: AtorSerie]
+    static hasMany = [diretorSerie: DiretorSerie]
     static hasMany = [usuarioSerie: UsuarioSerie]
 }

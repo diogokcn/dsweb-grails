@@ -6,7 +6,7 @@ class Usuario {
     String login
     String password
     String email
-    Boolean isAdmin
+    Boolean moderador
 
     static constraints = {
         nome blank: false, size: 1..255

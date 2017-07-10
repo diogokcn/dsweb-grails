@@ -11,7 +11,7 @@ class Filme {
     int classificacaoIndicativa
     int duracao
 
-    // em milhoes:
+    // em dolares:
     int orcamento
     int bilheteria
     
